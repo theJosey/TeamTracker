@@ -7,3 +7,30 @@ For now focus on Baseball
 then add more in the future?
 basically needs to be a one page site?
 Maybe different pages per sport? 
+
+Will likely need API of each site? 
+not sure how else to get info...
+
+my god 
+https://appac.github.io/mlb-data-api-docs/#header-getting-started
+but does not have win/lose data for teams!
+still a fun player database?? 
+maybe a good fantasy site???
+
+This is what we want 
+https://rapidapi.com/api-sports/api/api-baseball/endpoints
+
+need to incorporate api into project but
+
+ex for Tampa Bay rays 
+get":"standings"
+"parameters":{4 items
+"league":"1"
+"team":"34"
+"stage":"MLB"
+"season":"2020"
+}
+
+will need big dropdown and if/else for team ids? 
+or way to grab team ids using team name that can be set with dropdown 
+so this can totally work
