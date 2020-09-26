@@ -31,7 +31,7 @@ export default {
 
         req.headers({
             "x-rapidapi-host": "api-baseball.p.rapidapi.com",
-            "x-rapidapi-key": "b10d1d0504msh25b5f1a7ab69507p1e50cdjsn83e6955da18e",
+            "x-rapidapi-key": "",
             "useQueryString": true
         });
 
