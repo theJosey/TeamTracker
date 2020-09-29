@@ -40,12 +40,5 @@ It seems to be a problen of cache. I had the same problem,
 but just running in another port everything works fine, for example 
 npm run dev -- --port 3001
 
-Maybe try this another day? 
+sigh, can't get it to do anything, maybe python or C# is the way to go.....
 
-Through my several days investigation and loads of times debugging, 
-it look like the sever hanging issus it related to chokidar underlying I/O race condition and macOS.
-
-Fortunately, it seemed the issue has been tracked and fixed in fsevents/fsevents#290 , 
-I've verified the fix in my local with latest fsevents.
-
-You could just rebuild your yarn.lock or package-lock.json , nuxt will auto-use the latest chokidar and fsevents

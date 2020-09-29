@@ -14,6 +14,20 @@
 </template>
 
 <script>
+fetch("https://v1.baseball.api-sports.io/{endpoint}", {
+    "method": "GET",
+    "headers": {
+        "x-rapidapi-host": "v1.baseball.api-sports.io",
+        "x-rapidapi-key": ""
+    }
+})
+.then(response => {
+    console.log(response);
+})
+.catch(err => {
+    console.log(err);
+});
+
 export default {
     methods:{
         getTeamStandings() { 
@@ -40,6 +54,7 @@ export default {
             if (res.error) throw new Error(res.error);
 
             console.log(res.body);
+            console.log("test");
         });
         }
     }
